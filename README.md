@@ -54,7 +54,7 @@
 
 ![Screen13](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen13.png?raw=true)
 
-Были удалены ненужные файлы merge_commitfile.txt и del_commitfile.txt. Дополнительно в каталог были добавлены 2 изображения: myrecs_photo.png и musor.png. Для каждого были сделаны коммиты, а myrecs_photo.png было загружено в репозиторий. Коммит со вторым изображением был отменён с помощью команды git revert master. После применения команды открылся редактоh, после закрытия которого в консоль вывелась информация, что коммит со вторым изображением действительно был удалён:
+Были удалены ненужные файлы merge_commitfile.txt и del_commitfile.txt. Дополнительно в каталог были добавлены 2 изображения: myrecs_photo.png и musor.png. Для каждого были сделаны коммиты, а myrecs_photo.png было загружено в репозиторий. Коммит со вторым изображением был отменён с помощью команды git revert master. После применения команды открылся редактор, после закрытия которого в консоль вывелась информация, что коммит со вторым изображением действительно был удалён:
 
 ![Screen14](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen14.png?raw=true)
 
@@ -123,7 +123,7 @@
 
 ![Screen26](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen26.png?raw=true)
 
-Таким образом, на следующих рисункахпредставлена запись отчёта на языке разметки Markdown в Visual Studio Code:
+Таким образом, на следующих рисунках представлена запись отчёта на языке разметки Markdown в Visual Studio Code:
 
 ![Screen27](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen27.png?raw=true)
 
