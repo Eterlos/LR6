@@ -46,6 +46,18 @@
 
 ![Screen11](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen11.png?raw=true)
 
+Однако нужно рассмотреть случай, когда ветки конфликтуют между собой. В этот раз был сделан полный форк изначального репозитория, который помимо основной ветки master содержит ветку branch1. В обоих ветках есть конфликтующий файл mergefile.txt, который везде содержит разную информацию:
+
+![Screen11.1](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen36.png?raw=true)
+
+Для того, чтобы разрешить конфликт, нужно вручную отредактировать данный текстовый файл. Во-первых, нужно удалить "противоречащую ветке master информацию", а, во-вторых, нужно убрать разделители <<, == и >>:
+
+![Screen11.2](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen37.png?raw=true)
+
+После этого необходимо обновить файл mergefile.txt и сделать коммит. После этого можно спокойно использовать команду git merge и слияние веток произойдёт без конфликтов. Первая попытка слияния, вывод в консоль сообщения о конфликте, коммит и вторая успешная попытка слияния представлены на рисунке:
+
+![Screen11.3](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen38.png?raw=true)
+
 С помощью создания нового файла merge_commitfile.txt и коммита было зафиксировано слияние:
 
 ![Screen12](https://github.com/Eterlos/LR6/blob/otchet/screens/Screen12.png?raw=true)
